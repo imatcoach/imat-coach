@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="420" viewBox="0 0 1400 420">
+  <defs>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#153B63"/>
+      <stop offset="100%" stop-color="#0C2744"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(45,45)">
+    <!-- Icon -->
+    <g transform="translate(0,15)">
+      <!-- open book -->
+      <path d="M55 260 C90 220,145 212,200 232 L200 318 C145 294,95 294,55 320 Z"
+            fill="none" stroke="url(#blue)" stroke-width="14" stroke-linejoin="round"/>
+      <path d="M200 232 C255 212,310 220,345 260 L345 320 C305 294,255 294,200 318 Z"
+            fill="none" stroke="url(#blue)" stroke-width="14" stroke-linejoin="round"/>
+      <!-- graduation cap -->
+      <path d="M90 130 L200 75 L310 130 L200 185 Z" fill="url(#blue)"/>
+      <path d="M125 148 L125 200 C167 223,233 223,275 200 L275 148"
+            fill="none" stroke="url(#blue)" stroke-width="13" stroke-linecap="round"/>
+      <path d="M309 131 L309 205" stroke="url(#blue)" stroke-width="10" stroke-linecap="round"/>
+      <circle cx="309" cy="215" r="9" fill="#D8B55C"/>
+      <!-- subtle medical cross -->
+      <rect x="177" y="235" width="46" height="72" rx="8" fill="#FFFFFF"/>
+      <rect x="154" y="258" width="92" height="26" rx="8" fill="#FFFFFF"/>
+      <rect x="186" y="244" width="28" height="54" rx="5" fill="#173D65"/>
+      <rect x="173" y="257" width="54" height="28" rx="5" fill="#173D65"/>
+      <!-- Italy accent -->
+      <rect x="90" y="337" width="72" height="8" rx="4" fill="#16834B"/>
+      <rect x="162" y="337" width="72" height="8" rx="4" fill="#F2F2F2"/>
+      <rect x="234" y="337" width="72" height="8" rx="4" fill="#D4483E"/>
+    </g>
+
+    <!-- Wordmark -->
+    <g transform="translate(405,110)">
+      <text x="0" y="82" font-family="DejaVu Sans, Arial, sans-serif" font-size="112"
+            font-weight="800" fill="url(#blue)" letter-spacing="-4">IMAT</text>
+      <text x="325" y="82" font-family="DejaVu Sans, Arial, sans-serif" font-size="112"
+            font-weight="500" fill="#315579" letter-spacing="-3">Coach</text>
+      <rect x="2" y="114" width="685" height="6" rx="3" fill="#D8B55C"/>
+      <text x="4" y="166" font-family="DejaVu Sans, Arial, sans-serif" font-size="34"
+            font-weight="500" fill="#61758A" letter-spacing="9">YOUR SECOND PLAN</text>
+    </g>
+  </g>
+</svg>
